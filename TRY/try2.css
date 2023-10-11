@@ -1,0 +1,8 @@
+div{
+    border: 0px solid beige;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+div:hover{
+    transition: .2s ease-in-out;
+}

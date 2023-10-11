@@ -1,0 +1,478 @@
+
+body{
+width: 100%;
+height: 100%;
+background-color: lavender;
+
+}
+.li-1{
+    display: inline;
+  padding: 2px;
+    margin: 10px 10px 10px 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    
+   
+    }
+    .li-1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .fa-feather{
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+
+    }
+  
+nav{
+    display: flex;
+  
+    border: 1px solid rgb(235, 229, 229);
+    /* padding: 10px; */
+    box-shadow: 5px 10px #eeecee;
+    /* border-bottom: 10px solid #f1bfeb; */
+    text-align:justify;
+    margin-top: 20px;
+    background-color: rgb(252, 252, 238);
+   
+}
+.fa-cart-shopping{
+   margin-left: 220px;
+    position: absolute;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+.svg-1{
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+.li-1:hover{
+    border: 1px solid rgb(12, 12, 12);
+    color: black;
+    background-color: rgb(247, 231, 7) ;
+    border-radius: 5px;
+}
+
+.kidzee{
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+
+}
+.ul-1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+.image2{
+    background: linear-gradient(to left, transparent, rgb(247, 245, 245)),
+    url("pencil.jpg");
+    height: 600px;
+    width:100%;
+    opacity: 1;
+    /* background-position:center; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-left: 0px;
+}
+.sec1{
+    margin-top:30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text2{
+   margin-left: 100px;
+    margin-top: 300px;
+    position: absolute;
+    border: 2px solid rgb(46, 69, 134);
+    color: white;
+    background-color:rgb(46, 69, 134);
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.text3{
+    margin-left: 80px;
+    margin-top: 320px;
+    position: absolute;
+    color: darkblue;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:cursive;
+   }
+   .text4{
+    margin-left: 80px;
+    margin-top: 470px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:sans-serif;
+    color: white;
+    border: 2px solid rgb(131, 131, 6);
+    background-color: rgb(131, 131, 6);
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 2px 4px #d520b4 ;
+}
+.text4:hover{
+border: 2px solid #d520b4;
+background-color:#d520b4 ;
+border-radius: 7px;
+    padding: 5px;
+    color: black;
+    box-shadow: 3px 5px rgb(131, 131, 6) ;
+
+}
+.sec2{
+    margin-top: 20px;
+}
+.text5{
+    border: 4px dashed red;
+    height: 500px;
+    position: absolute;
+    width: 500px;
+    z-index: 0;
+    border-radius:12px;
+}
+.img2{
+    height: 500px;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    margin-left: 35px;
+    margin-top: 20px;
+    border:0px solid white ;
+    border-radius:12px;
+}
+.text7{
+      position:absolute;
+    display: flex;
+    margin-left: 650px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 2px 5px rgb(131, 131, 6) ;
+    z-index: 1;
+    
+}
+  
+.text8{
+    position: absolute;
+    display: flex;
+    margin-left: 670px;
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    color:darkblue;
+    text-shadow: 2px 5px rgb(131, 131, 6) ;
+    }
+ .div5{
+   background-color:pink;
+    width: 540px;
+    height: 30px;
+    margin-left: 640px;
+    position: absolute;
+    z-index: -1;
+margin-top: 180px;
+ }
+ .div6
+ {
+    background-color:pink;
+    width: 510px;
+    height: 30px;
+    margin-left: 650px;
+    position: absolute;
+    z-index: -1;
+margin-top: 230px;
+
+ }
+ .text9{
+    display: flex;
+    float: right;
+    margin-top: 280px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(68, 66, 66);
+    
+ }
+ .fa-square-full{
+   margin-left: 750px;
+    position: absolute;
+    height: 15px;
+    width: 200px;
+   box-shadow: 2px 5px #d520b4;
+    margin-top: 350px;
+    border: 2px solid rgb(131, 131, 6);
+    padding: 8px;
+    border-radius: 17px;
+    background-color: rgb(131, 131, 6);
+    text-align:center;
+    color: darkblue;
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: bold;
+   
+}
+.fa-square-full:hover{
+    border: 2px solid  #d520b4; 
+    color: rgb(250, 245, 245);
+    background-color: #d520b4;
+    box-shadow: 2px 5px rgb(131, 131, 6);
+
+}
+.sec3{
+   position: absolute;
+   display: flex;
+    margin-top: 50px;
+   
+    width: 100%;
+    }
+    .text-8{
+        display: flex;
+        margin-left: 100px;
+        height: 200px;
+        width: 200px;
+        
+       
+    }
+    .text-7{
+        display: flex;
+        height: 180px;
+        width: 180px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+        
+        
+    }
+    .text-6{
+        display: flex;
+        height: 200px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: 3px;
+         
+    }
+    .div-1{
+        margin-left: 20px;
+        display:inline;
+        position: absolute;
+        margin-top: 450px;
+        height: 400px;
+        width: 400px;
+        border:2px solid #ebb104;
+        background-color:#ebb104;
+        border-radius: 10px;
+    }
+    .div-2{
+        margin-left: 450px;
+        display: inline;
+        position: absolute;
+        margin-top: 450px;
+        height: 400px;
+        width: 400px;
+        border: 2px solid magenta;
+        background-color: magenta;
+        border-radius: 10px;
+    }
+    .div-3{
+        margin-left:880px;
+        display: inline;
+        position: absolute;
+        margin-top: 450px;
+        height: 400px;
+        width: 400px;
+        border: 2px solid #007bff;
+        background-color: #007bff;
+        border-radius: 10px;
+
+    }
+    .div-1:hover{
+        border: 2px solid green;
+        background-color: green;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    .div-2:hover{
+        border: 2px solid brown;
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+
+    }
+    .div-3:hover{
+        border: 2px solid coral;
+        background-color: coral;
+        border-radius: 10px;
+        color: white;
+    }
+
+
+ .playground{
+    margin-top: 7px;
+    margin-left: 55px;
+    position: absolute;
+    font-size: 40px;
+    font-family:cursive;
+    font-weight: bold;
+    
+    }
+    .env{
+        margin-top: 10px;
+        margin-left: 55px;
+        position: absolute;
+        font-size: 40px;
+        font-family:cursive;
+        font-weight: bold;
+        
+        
+    }
+    .ent{
+        margin-top: 2px;
+        position: absolute;
+        font-size: 40px;
+        font-family:cursive;
+        font-weight: bold;
+      margin-left: 100px;
+        
+
+    }
+    .play{
+        margin-top: 70px;
+        margin-left: 12px;
+    }
+    .env-2{
+        margin-top: 80px;
+        margin-left: 12px;
+    }
+    .ent-2{
+        margin-top: 70px;
+        margin-left: 12px;
+    }
+    .read-1{
+        margin-top: 70px;
+        margin-left: 100px;
+        font-size: 27px;
+        
+    }
+    .read-2{
+        margin-top: 100px;
+        margin-left: 120px;
+        font-size: 27px;
+
+
+    }
+    .read-3{
+        margin-top: 70px;
+        margin-left: 120px;
+        font-size: 27px;
+
+    }
+    .school{
+        position: absolute;
+        display: flex;
+        margin-top: 900px;
+        margin-left: 400px;
+        font-size: 50px;
+        color: rgb(4, 4, 87);
+        font-weight: bold;
+        font-family: serif;
+        z-index: 1;
+    }
+    .sch{
+        position: absolute;
+        display: flex;
+        margin-top: 820px;
+        margin-left: 360px;
+border-bottom: 30px solid rgb(252, 171, 252);
+z-index: -1;
+height: 100px;
+width: 600px;
+    }
+    .para-1{
+        margin-top: 985px;
+       margin-left: 50px;
+      text-align: center;
+      margin-right: 50px;
+      font-size: 27px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+   
+   .foot{
+    margin-top: 1250px;
+    position:absolute;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    
+   }
+   .icon{
+    margin-top: 1300px;
+    margin-left: 50px;
+     position: absolute;
+     height: 200px;
+     width: 150px;
+   }
+   .footer-text{
+    margin-top: 1480px;
+    margin-left: 40px;
+    position: absolute;
+    font-size: 27px;
+   }
+   .icon2{
+    margin-top: 1280px;
+    margin-left: 250px;
+     position: absolute;
+     height: 200px;
+     width: 150px;
+
+   }
+   .footer-text2{
+    margin-top: 1461px;
+    margin-left: 250px;
+    position: absolute;
+    font-size: 27px;
+
+   }
+   .footer-2{
+    margin-top: 1250px;
+    position: absolute;
+    margin-left: 850px;
+    text-align: center;
+    
+   }
+   .icon3{
+    margin-top: 1260px;
+    margin-left: 450px;
+     position: absolute;
+     height: 200px;
+     width: 150px;
+
+   }
+   .footer-text3{
+    margin-top: 1442px;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 27px;
+
+   }
+   
+  
+   
